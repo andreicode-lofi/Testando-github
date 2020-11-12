@@ -22,13 +22,17 @@ namespace E
 
             Console.WriteLine();
             double notafinal = A.NotaFinal();
-            if (nota1 > 60.0)
+            if (notafinal > 60.0)
             {
                 Console.WriteLine("Nota final = " + notafinal.ToString("f2", CultureInfo.InvariantCulture));
+                Console.WriteLine("Aprovado");
             }
             else
             {
                 Console.WriteLine("Nota final = " + notafinal.ToString("f2", CultureInfo.InvariantCulture));
+                Console.WriteLine("Reprovado");
+                double falta = notafinal - 60.0;
+                Console.WriteLine("Faltaram " + falta.ToString("f2", CultureInfo.InvariantCulture) + " Pontos");             
             }
 
 

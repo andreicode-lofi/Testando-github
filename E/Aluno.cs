@@ -16,12 +16,12 @@ namespace E
             Nome = nome;
             Nota1 = nota1;
             Nota2 = nota2;
-            Nota3 = nota2;
+            Nota3 = nota3;
         }
 
         public double NotaFinal()
         {
-            return Nota1 + Nota2 + Nota3 / 3.0;
+            return Nota1 + Nota2 + Nota3;
         }
     }
 }
