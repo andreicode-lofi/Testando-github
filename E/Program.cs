@@ -11,6 +11,7 @@ namespace E
 
             while (opc == "s" || opc == "S")
             {
+                Console.WriteLine("Ola");
                 Console.Write("Nome do aluno: ");
                 string nome = Console.ReadLine();
                 Console.WriteLine("Digite as tres notas do aluno: ");
